@@ -78,24 +78,15 @@ html.fp-enabled,
 .fp-arrow{
     width: 0;
     height: 0;
-    /* border-style: solid; */
+    border-style: solid;
 }
 .fp-arrow.fp-prev {
-    background-image: url(img/left.png);
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-
-    /* border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent; */
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
 }
 .fp-arrow.fp-next {
-    background-image: url(img/우-화살표.png);
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
-    /* border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff; */
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
 }
 /* .fp-scrollable {
     overflow: hidden;
